@@ -1,11 +1,11 @@
-import React, { FC } from 'react';
-import ButtonContainer from './ButtonContainer';
+import React from "react";
+import Button from "./Button";
 
-const App: FC<{ version?: string }> = () => (
+const App = () => (
   <div>
     <h1>Nested</h1>
     <h2>App 2</h2>
-    <ButtonContainer />
+    <Button />
   </div>
 );
 
