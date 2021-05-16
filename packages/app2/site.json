@@ -1,6 +1,6 @@
 {
   "name": "app2",
-  "exports": ["./src/App", "./src/Button"],
+  "exports": ["./src/bootstrap", "./src/Button"],
   "dependencies": {},
   "shared": {
     "react": { "singleton": true },

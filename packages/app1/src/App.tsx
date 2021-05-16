@@ -1,23 +1,24 @@
-import React from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
-import Navigation from './Navigation';
-import HomePage from './HomePage';
-
-const App2 = React.lazy(() => import('app2/src/App'));
+import React from "react";
+import { HashRouter, Route, Switch } from "react-router-dom";
+import { useApp } from "fronts-react";
+import Navigation from "./Navigation";
+import HomePage from "./HomePage";
 
 const routes = [
   {
-    path: '/',
+    path: "/",
     component: HomePage,
     exact: true,
   },
   {
-    path: '/about',
-    component: () => (
-      <React.Suspense fallback={<div>Loading...</div>}>
-        <App2 />
-      </React.Suspense>
-    ),
+    path: "/about",
+    component: () => {
+      const App2 = useApp({
+        name: "app2",
+        loader: () => import("app2/src/bootstrap"),
+      });
+      return <App2 />;
+    },
     exact: true,
   },
 ];
@@ -25,22 +26,22 @@ const routes = [
 const App = () => {
   return (
     <HashRouter>
-    <div>
-      <h1>App 1</h1>
-      <Navigation />
-      <Switch>
-        {routes.map((route) => (
-          <Route
-            key={route.path}
-            path={route.path}
-            component={route.component}
-            exact={route.exact}
-          />
-        ))}
-      </Switch>
-    </div>
-  </HashRouter>
-  )
+      <div>
+        <h1>App 1</h1>
+        <Navigation />
+        <Switch>
+          {routes.map((route) => (
+            <Route
+              key={route.path}
+              path={route.path}
+              component={route.component}
+              exact={route.exact}
+            />
+          ))}
+        </Switch>
+      </div>
+    </HashRouter>
+  );
 };
 
 export default App;
