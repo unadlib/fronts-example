@@ -22,8 +22,8 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "fronts-bundler": "^0.0.2",
-    "fronts-react": "^0.0.2",
+    "fronts-bundler": "^0.0.6",
+    "fronts-react": "^0.0.6",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2"

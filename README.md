@@ -20,7 +20,8 @@ Runs the apps in the development mode, and open [http://localhost:3001](http://l
 cd packages/app1 && SPA=true yarn start
 ```
 
-Runs the app1 without non-micro-frontends mode.
+Runs the app1 in non-micro-frontends mode.
+
 ## Build
 
 ```sh
