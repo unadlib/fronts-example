@@ -3458,33 +3458,33 @@ from2@^2.1.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
-fronts-bundler@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/fronts-bundler/-/fronts-bundler-0.1.0.tgz#83860f1109454399c36df79dcb692f39002dd149"
-  integrity sha512-5/pIB/WGVvskCeaaKEgk68a3h+xQDBR1HZ7VIuDwV54AoDz8qNZ7orSpTeMGTnqmnxqGUq/mgCHsa0oWAoLjjA==
+fronts-bundler@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/fronts-bundler/-/fronts-bundler-0.1.1.tgz#d24e8d86c2abd793df75da3813666ede6291454c"
+  integrity sha512-CKtuzkrhoHOmI0ELlKBt0Apbe7RlhAk1Qqa9sssIz4dnpJxNZF+VJdDjGCYo/KZBRcIhTRaiWh1/mlMsfeTk+A==
   dependencies:
     string-replace-loader "^3.0.1"
 
-fronts-react@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/fronts-react/-/fronts-react-0.1.0.tgz#bc64ff784a25fd0ad792097898ece888ebbe0209"
-  integrity sha512-1XnBI5blRcj5OdszqYj/pA0pzdMES8EtyWc4TNU1DEY64VDUASCaO/OUeXT4qC/WytuPa5z7WnUD4ePvbzSXhg==
+fronts-react@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/fronts-react/-/fronts-react-0.1.1.tgz#0a79f1e1cde9141a5688d1d6fa92768ac7acbf2c"
+  integrity sha512-FBp+bGyqaO17bpJqCUccOLCAV7Wmp44CcYKyvrCUI/bP9JmRTSQ9RgrK14nQRy1U9Ewgbyxy3ax4H2IGkEHTGw==
   dependencies:
-    fronts "^0.1.0"
+    fronts "^0.1.1"
 
-fronts-transport@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/fronts-transport/-/fronts-transport-0.1.0.tgz#39a1e012b29c967f72369891115bea1d614d179e"
-  integrity sha512-0KKW7GBiH2eImeMj8gvB8lwGEX5GggJXDycIR+lgueAOpxliYUxXXw8Rsr6e51LNnnHbNqXfPGuJGZQjsbBaog==
+fronts-transport@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/fronts-transport/-/fronts-transport-0.1.1.tgz#85e0292b187edf369c26e0ae78676891c479d201"
+  integrity sha512-Re7i8K/cA2NZW2+yaIfTJpng3wjoRm5b5zOOQJVHVZFz7E1Rhv5iwUT0dLa2k/2T/rFAYc9L+T1/sb+b6x8Cpw==
   dependencies:
     data-transport "^2.1.0"
 
-fronts@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/fronts/-/fronts-0.1.0.tgz#d5910c543a4b5d420d5c50d4e0f4bebc96462621"
-  integrity sha512-8g5FswK3FvDvEr6zcWM2OBTQ4iikHTzol0P01THkghzXS7DvddVYlbO8z36H2dmkXiXuXhxtpF9jRiD/EGhPIw==
+fronts@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/fronts/-/fronts-0.1.1.tgz#406f56dc2bafd420d3b23cb8bc6e37e18e4b87e3"
+  integrity sha512-+NGXFAFNE0eHcjFy9KhnCj7JN+XHni2mjGKQiYup3vUhx/f+fZ6NRANYaoxyARWV3Do9MLDizdNZ60atD1CN8A==
   dependencies:
-    fronts-transport "^0.1.0"
+    fronts-transport "^0.1.1"
 
 fs-extra@^8.1.0:
   version "8.1.0"

@@ -24,8 +24,8 @@
   },
   "dependencies": {
     "app2": "^0.0.0",
-    "fronts-bundler": "^0.1.0",
-    "fronts-react": "^0.1.0",
+    "fronts-bundler": "^0.1.1",
+    "fronts-react": "^0.1.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.2.0"
